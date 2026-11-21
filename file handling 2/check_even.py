@@ -1,0 +1,1 @@
+f= open('practice2.txt','w')
