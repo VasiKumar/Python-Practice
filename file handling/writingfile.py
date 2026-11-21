@@ -1,0 +1,7 @@
+f = open("samosa.txt", "w")
+f.write("samosa mai aloo kam h")
+f.close()
+f = open("samosa.txt", "r")
+data=f.read()
+print(data , end="")
+f.close()

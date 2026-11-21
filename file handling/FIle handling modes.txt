@@ -6,4 +6,6 @@ character   Meaning
 'b'         binary mode
 't'         text mode (default)
 '+'         open a disk file for updating (reading and writing)
-    
+'r+'        read and overwrite (pointer at start) - no truncate but replace characters of indexes
+'w+'        read and overwrite - truncates everything
+'a+'        read and append (pointer at end) no truncate here.
