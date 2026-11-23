@@ -6,3 +6,5 @@ print(newdata)
 
 with open("practice.txt", "w+") as f:
     f.write(newdata)
+
+f.close()
